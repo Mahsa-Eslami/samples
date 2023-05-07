@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 100%;
+      background-color: rgb(227, 252, 227);
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      overflow-x: hidden;
+    }
+    /* <!-- ** start of navigation part **  --> */
+    .whitepart {
+      width: 100%;
+      height: 60px;
+      background-color: white;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    nav {
+      position: relative;
+      height: 60px;
+    }
+    .menu {
+      height: 100%;
+      width: 100%;
+    }
+    .menu > li {
+      height: 100%;
+      list-style: none;
+      display: flex;
+      align-items: center;
+    }
+    .menu > li > a {
+      text-decoration: none;
+      color: black;
+    }
+    i {
+      padding: 0 5px;
+    }
+    /* <!-- ** end of navigation part **  --> */
+    /* <!-- ** start of main part**  --> */
+  .mainpart{
+    background-color: white;
+    width: 250px;
+    height: 450px;
+    border-radius: 15px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .mainpart h3{
+    font-size: 12px;
+    font-weight: bold;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .mainpart h3:nth-of-type(1){
+    margin-top: 65px;
+  }
+  .mainpart h3:nth-of-type(2){
+    margin-top: -30px;
+  }
+  .mainpart div{
+    width: 200px;
+    height: 50px;
+    background-color:rgb(227, 252, 227);
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 11px;
+  }
+  .mainpart div:nth-of-type(2){
+    justify-content: flex-start;
+  }
+  .mainpart p{
+    font-size: 12px;
+    color: red;
+  }
+  .mainpart button:nth-of-type(1),
+  .mainpart button:nth-of-type(2){
+    color: white;
+    background-color: rgb(243, 60, 121);
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+  }
+  .mainpart button:nth-of-type(1){
+    background-color: rgb(247, 213, 104);
+  }
+  .mainpart span{
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+  }
+  i{
+    font-size: 14px;
+  }
+  input {
+    width: inherit;
+    height: inherit;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  </style>
+  <body>
+    <main class="container-fluid container-xxl">
+      <!-- ** start of navigation part **  -->
+      <div class="whitepart"></div>
+      <nav class="col-12 col-md-6 d-flex">
+        <ul class="menu d-flex">
+          <li class="w-100 w-md-25">
+            <a href=""><i class="bi bi-grid-3x3-gap"></i>Services</a>
+          </li>
+          <li class="w-100 w-md-25">
+            <a href=""><i class="bi bi-cash-stack"></i>Pricing</a>
+          </li>
+          <li class="w-100 w-md-25">
+            <a href=""><i class="bi bi-layout-text-window-reverse"></i>Blog</a>
+          </li>
+          <li class="w-100 w-md-25">
+            <a href=""><i class="bi bi-arrow-down-circle"></i>More</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- ** end of navigation part **  -->
+      <!-- ** start of main part**  -->
+    <section class="mainpart">
+      <h3>Register me</h3>
+      <h3>as a new customer</h3>
+      <div><i class="bi bi-person-circle"></i><input type="text" placeholder="User Name"></div>
+      <div><i class="bi bi-key"></i><input type="text" placeholder="Password"><i class="bi bi-eye"></i></div>
+      <div><i class="bi bi-envelope"></i><input type="text" placeholder="Email Address"></div>
+      <button><i class="bi bi-plus-circle"></i>Register Me</button>
+    </section> 
+  </body>
+</html>
