@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0be90335ad.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://themes.muffingroup.com/be/seo3/wp-content/themes/betheme/images/favicon.ico"
+        type="image/x-icon">
+</head>
+
+<body>
+    <!-- ________Header__________ -->
+    <header>
+        <div>
+            <img src="img/logo.png" alt="BeSEO Logo">
+        </div>
+        <div class="mobile-view-icon" onclick="openMenu()">
+            <div>
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <nav class="desktop-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="contact.html" style="color: var(--menu-font-color)">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <nav class="mobile-menu" id="mobile-menu-script">
+        <div>
+            <span onclick="closeMenu()">&#128473;</span>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ________Hero Section__________ -->
+    <section class="hero-section container">
+        <div class="main-sections hero-section-left">
+            <div>
+                <span>CONTACT US</span>
+            </div>
+            <h1>Feel free to contact us</h1>
+            <!-- <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit impedit quam qui
+                </p>
+            </div> -->
+            <!-- 
+            <div style="width: 100%;">
+                <a href="about.html" class="btn">Read more</a>
+                <a href="contact.html" class="btn" style="background-color: var(--btn-bg-light-color);">Contact us</a>
+            </div> -->
+        </div>
+        <div class="hero-section-right">
+            <img src="img/contact-pic1.png" alt="contact pic" style="width: 100%;">
+        </div>
+    </section>
+
+    <!-- ________Contact Details__________ -->
+    <section class="container contact-details">
+        <div class="contact-left-part">
+            <h2>Our office</h2>
+            <div class="contact-boxes">
+                <span style="margin-right: 20px;"><i class="fa-solid fa-location-dot" style="color: #fca80f; font-size: 30px;"></i>
+                </span>
+                <p>Level 13, 2 Elizabeth St,
+                    Melbourne, Victoria 3000,
+                    Australia</p>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+           
+        
+        </div>
+        <div class="contact-right-part">
+            <h2>Find us on</h2>
+            <div>
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ________Footer__________ -->
+    <footer>
+        <div class="svg">
+            <div class="hero-section">
+                <div class="main-sections footer center">
+                    <div>
+                        <span>join us</span>
+                    </div>
+                    <div class="footer-middle-section">
+                        <p>Newsletter</p>
+                    </div>
+                    <div class="input">
+                        <input type="email" placeholder="Your e-mail">
+                    </div>
+                </div>
+            </div>
+            <div style="width: 100%; text-align: center;">
+                <a href="" class="btn-orange">Sign up</a>
+            </div>
+        </div>
+        <div class="contacts">
+            <div>Level 13, 2 Elizabeth St,
+                Melbourne, Victoria 3000,
+                Australia
+            </div>
+            <div>
+                <span> Monday - Friday: 8am - 6pm</span>
+                <span> <a href="#">
+                        <i class="fa-brands fa-twitter" style="color: #fafafa;"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f" style="color: #fafafa;"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-skype" style="color: #fafafa;"></i>
+                    </a></span>
+            </div>
+            <div>
+                <span> <i class="fa-solid fa-mobile-screen" style="color: #ffffff; margin-right: 5px; "></i> +61 (0) 383
+                    766
+                    284</span>
+                <span> <i class="fa-solid fa-envelope" style="color: #ffffff; margin-right: 5px;"></i>
+                    noreply@envato.com
+                </span>
+            </div>
+    </footer>
+    <!-- ________Designer Info__________ -->
+    <section class="design-info">
+        © 2021 Betheme by Muffin group | All Rights Reserved | Powered by WordPress
+    </section>
+</body>
+<script>
+    function openMenu() {
+        document.getElementById("mobile-menu-script").style.transform = "translateX(0)";
+    }
+    function closeMenu() {
+        document.getElementById("mobile-menu-script").style.transform = "translateX(100%)";
+    }
+</script>
+
+</html>

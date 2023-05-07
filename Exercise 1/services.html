@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0be90335ad.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://themes.muffingroup.com/be/seo3/wp-content/themes/betheme/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- ________Header__________ -->
+    <header>
+        <div>
+            <img src="img/logo.png" alt="BeSEO Logo">
+        </div>
+        <div class="mobile-view-icon" onclick="openMenu()">
+            <div>
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <nav class="desktop-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="services.html" style="color: var(--menu-font-color)">Services</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <nav class="mobile-menu" id="mobile-menu-script">
+        <div>
+            <span onclick="closeMenu()">&#128473;</span>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ________Hero Section__________ -->
+    <section class="hero-section container">
+        <div class="main-sections hero-section-left">
+            <div>
+                <span>SERVICES</span>
+            </div>
+            <h1>A wide range of services</h1>
+            <!-- <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit impedit quam qui
+                </p>
+            </div>
+
+            <div style="width: 100%;">
+                <a href="about.html" class="btn">Read more</a>
+                <a href="contact.html" class="btn" style="background-color: var(--btn-bg-light-color);">Contact us</a>
+            </div> -->
+        </div>
+        <div class="hero-section-right">
+            <img src="img/services-pic1.png" alt="service pic" style="width: 100%;">
+        </div>
+    </section>
+   
+    <!-- ________Services__________ -->
+    <!-- <section class="main-sections center container">
+        <div>
+            <span>services</span>
+        </div>
+        <h2>What we can do for you?</h2>
+    </section> -->
+    <section class="feature-boxes center container" style="justify-content: space-around;">
+        <div class="service-box">
+            <div>
+                <img src="img/ervices-icon1.png" alt="service icon1">
+            </div>
+            <div>
+                <h3>Design & Layout</h3>
+                <p>
+                    Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna. Proin risus erat,
+                    fringilla vel purus sit amet, mattis porta enim.
+                </p>
+            </div>
+        </div>
+        <div class="service-box">
+            <div>
+                <img src="img/services-icon2.png" alt="service icon2">
+            </div>
+            <div>
+                <h3>Digital Marketing</h3>
+                <p>
+                    Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna. Proin risus erat,
+                    fringilla vel purus sit amet, mattis porta enim.
+                </p>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div>
+                <img src="img/services-icon3.png" alt="service icon3">
+            </div>
+            <div>
+                <h3>Google Ads</h3>
+                <p>
+                    Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna. Proin risus erat,
+                    fringilla vel purus sit amet, mattis porta enim.
+                </p>
+            </div>
+        </div>
+        <div class="service-box">
+            <div>
+                <img src="img/services-icon4.png" alt="service icon4">
+            </div>
+            <div>
+                <h3>Social Media Marketing</h3>
+                <p>
+                    Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna. Proin risus erat,
+                    fringilla vel purus sit amet, mattis porta enim.
+                </p>
+            </div>
+        </div>
+        <div class="service-box">
+            <div>
+                <img src="img/services-icon5.png" alt="service icon5">
+            </div>
+            <div>
+                <h3>Marketing Analysis</h3>
+                <p>
+                    Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna. Proin risus erat,
+                    fringilla vel purus sit amet, mattis porta enim.
+                </p>
+            </div>
+        </div>
+        <div class="service-box">
+            <div>
+                <img src="img/ervices-icon6.png" alt="service icon6">
+            </div>
+            <div>
+                <h3>Content Marketing</h3>
+                <p>
+                    Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna. Proin risus erat,
+                    fringilla vel purus sit amet, mattis porta enim.
+                </p>
+            </div>
+        </div>
+        <!-- <div style="width: 100%;">
+            <a href="services.html" class="btn">Read more</a>
+        </div> -->
+    </section>
+    <!-- ________Our work__________ -->
+    <section class="hero-section container">
+        <div class="main-sections hero-section-left">
+            <div>
+                <span>OUR WORK</span>
+            </div>
+            <h2>Why customers loves us?</h2>
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit impedit quam qui
+                </p>
+            </div>
+
+            <div style="width: 100%;">
+                <a href="about.html" class="btn">About us</a>
+            </div>
+        </div>
+        <div class="hero-section-right">
+            <img src="img/seo3-home-pic2.png" alt="home-pic" style="width: 80%;">
+        </div>
+    </section>
+    <!-- ________Clients__________ -->
+    <section class="main-sections center container">
+        <h2>Our clients</h2>
+        <span class="clients">
+            <span style="width: 100%;">
+                <img src="img/client1.png" alt="cliets logo" style="width: 50%;">
+            </span>
+        </span>
+        <span class="clients">
+            <span style="width: 100%;">
+                <img src="img/client2.png" alt="cliets logo" style="width: 50%;">
+            </span>
+        </span>
+        <span class="clients">
+            <span style="width: 100%;">
+                <img src="img/client3.png" alt="cliets logo" style="width: 50%;">
+            </span>
+        </span>
+        <span class="clients">
+            <span style="width: 100%;">
+                <img src="img/client4.png" alt="cliets logo" style="width: 50%;">
+            </span>
+        </span>
+        <span class="clients">
+            <span style="width: 100%;">
+                <img src="img/client5.png" alt="cliets logo" style="width: 50%;">
+            </span>
+        </span>
+    </section>
+    <!-- ________Footer__________ -->
+    <footer>
+        <div class="svg">
+            <div class="hero-section">
+                <div class="main-sections footer center">
+                    <div>
+                        <span>join us</span>
+                    </div>
+                    <div class="footer-middle-section">
+                        <p>Newsletter</p>
+                    </div>
+                    <div class="input">
+                        <input type="email" placeholder="Your e-mail">
+                    </div>
+                </div>
+            </div>
+            <div style="width: 100%; text-align: center;">
+                <a href="" class="btn-orange">Sign up</a>
+            </div>
+        </div>
+        <div class="contacts">
+            <div>Level 13, 2 Elizabeth St,
+                Melbourne, Victoria 3000,
+                Australia
+            </div>
+            <div>
+                <span> Monday - Friday: 8am - 6pm</span>
+                <span> <a href="#">
+                        <i class="fa-brands fa-twitter" style="color: #fafafa;"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f" style="color: #fafafa;"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-skype" style="color: #fafafa;"></i>
+                    </a></span>
+            </div>
+            <div>
+                <span> <i class="fa-solid fa-mobile-screen" style="color: #ffffff; margin-right: 5px; "></i> +61 (0) 383
+                    766
+                    284</span>
+                <span> <i class="fa-solid fa-envelope" style="color: #ffffff; margin-right: 5px;"></i>
+                    noreply@envato.com
+                </span>
+            </div>
+    </footer>
+    <!-- ________Designer Info__________ -->
+    <section class="design-info">
+        © 2021 Betheme by Muffin group | All Rights Reserved | Powered by WordPress
+    </section>
+</body>
+<script>
+    function openMenu() {
+        document.getElementById("mobile-menu-script").style.transform = "translateX(0)";
+    }
+    function closeMenu() {
+        document.getElementById("mobile-menu-script").style.transform = "translateX(100%)";
+    }
+</script>
+
+</html>
